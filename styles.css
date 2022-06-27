@@ -212,6 +212,7 @@ a:hover {
 /*     font-family: sans-serif; */
     letter-spacing: 1px;
     color: rgb(109, 109, 109);
+    font-size: 1.5rem;
 }
 .card-wrapper {
     text-align: center;
@@ -257,6 +258,9 @@ a:hover {
     opacity: 1;
     visibility: visible;
 }
+.card:hover {
+    filter: unset;
+}
 /* FOOTER */
 .footer {
     height: 100px;
@@ -264,7 +268,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0F4FFB;
+    background-color: #2ECAF2;
 }
 /* RESPONSIVO */
 @media (max-width: 800px) {
