@@ -195,7 +195,7 @@ a:hover {
     width: 400px;
     border-radius: 8px;
     margin: 3rem 0 0 0;
-    background-image: url(./landscape.avif);
+    background-image: url(../images/landscape.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
