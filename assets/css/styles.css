@@ -19,6 +19,16 @@ body {
     position: relative;
     animation: backgroundTransition 8s ease-in-out infinite;
 }
+/* Botões de linguagem */
+#botao-ingles {
+    position: absolute;
+    top: 26px;
+}
+#botao-portugues {
+    position: absolute;
+    top: 26px;
+}
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
