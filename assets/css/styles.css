@@ -20,13 +20,24 @@ body {
     animation: backgroundTransition 8s ease-in-out infinite;
 }
 /* Botões de linguagem */
-#botao-ingles {
+.botoes-de-linguagem {
+    width: auto;
+    height: auto;
     position: absolute;
-    top: 26px;
+    display: flex;
+    top: 16px;
+    right: 100px;  
+}
+#botao-ingles {
+background-image: url(../images/FlagOfUsa.png);
+width: 64px;
+height: 64px;
+margin: 0 10px;
 }
 #botao-portugues {
-    position: absolute;
-    top: 26px;
+background-image: url(../images/FlagOfBrazil.png);
+width: 64px;
+height: 64px;
 }
 
 h1 {
@@ -55,7 +66,7 @@ h2 {
     align-items: center;
     transition: 0.5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
-a:hover {
+.social-media a:hover {
     color: #0F4FFB;
     background-color: #ffffff;
 }
@@ -75,7 +86,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 999;
