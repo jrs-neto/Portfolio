@@ -8,6 +8,12 @@ function typeWriter() {
     typingOutput.textContent += textToType.charAt(index);
     index++;
     setTimeout(typeWriter, 200);
+  } else if (index === textToType.length) {
+    setTimeout(() => {
+      index = 0;
+      typeWriter();
+    }, 2500);
+    index++; 
   }
 }
 
