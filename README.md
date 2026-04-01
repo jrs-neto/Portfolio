@@ -21,12 +21,14 @@ O projeto consome dados dinâmicos da **API do GitHub**, permitindo que informa�
 - Estrutura de páginas desenvolvida com **HTML semântico**
 - Estilização moderna com **CSS**, utilizando:
   - Variáveis CSS
-  - Animações
+  - Animações (incluindo efeito de flutuação)
   - Layout responsivo (desktop, tablet e mobile)
 - Integração com a **API do GitHub** para:
   - Exibição dinâmica das informações do perfil
   - Listagem automática dos repositórios
 - Exibição dos projetos em **carrossel interativo** utilizando **Swiper.js**
+- **Alternância de Tema (Dark Mode)** com persistência no navegador
+- **Efeito de Digitação (Typewriter)** no logotipo para maior interatividade
 - **Formulário de contato com validação no frontend**, garantindo o correto preenchimento dos campos
 - Página dedicada de **confirmação de envio** do formulário
 - Navegação fluida com menu fixo e rolagem suave
@@ -44,9 +46,9 @@ O projeto consome dados dinâmicos da **API do GitHub**, permitindo que informa�
 │
 ├── 📁assets/
 │   ├── 📁css/
-│   │   └── styles.css    # Estilos e responsividade
+│   │   └── style.css     # Estilos e responsividade
 │   ├── 📁js/
-│   │   └── scripts.js    # Integração com GitHub, carrossel e validações
+│   │   └── script.js     # Integração com GitHub, carrossel, validações e efeitos
 │   ├── 📁img/            # Imagens e ilustrações
 │   └── 📁icons/          # Ícones das linguagens e redes sociais
 │
@@ -80,7 +82,7 @@ Para executar o projeto em ambiente local, siga os passos abaixo.
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/jrs-neto/portfolio-generation
+   git clone https://github.com/jrs-neto/portfolio
    ```
 
 2. Acesse a pasta do projeto:
@@ -116,6 +118,8 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
 
 
 - Layout **responsivo**
+- **Modo Escuro (Dark Mode)** para melhor conforto visual
+- **Efeito de Digitação** dinâmico no logo "Coding"
 - Paleta de cores harmônica com tons de roxo e cinza
 - **Animações suaves** (transições e efeitos de flutuação)
 - **Formulário funcional** com envio automático via e-mail
@@ -127,7 +131,7 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-🔗 https://github.com/jrs-neto/portfolio-generation
+🔗 https://jrs-neto.github.io/portfolio/
 
 ------
 

@@ -14,6 +14,9 @@
 | `focus()`                     | Define o foco em um campo do formulário.                  | Interação com input     | `nome.focus();`                                              |
 | `disabled`                    | Habilita ou desabilita um botão.                          | Controle de estado      | `submitButton.disabled = true;`                              |
 | `textContent`                 | Altera o texto de um elemento.                            | Manipulação de texto    | `submitButton.textContent = 'Enviando...';`                  |
+| `classList.add / toggle`      | Adiciona ou alterna classes CSS no elemento.              | Manipulação de classes  | `body.classList.toggle('dark-mode');`                        |
+| `localStorage.setItem / getItem` | Salva e recupera dados no navegador.                   | Armazenamento local     | `localStorage.getItem('theme');`                             |
+| `setTimeout()`                | Executa uma função após um tempo determinado.             | Temporizador            | `setTimeout(typeWriter, 200);`                               |
 
 ------
 
@@ -93,9 +96,11 @@
 
 | **Função**              | **Função / Descrição**                                   | **Categoria**      | **Observação**                                |
 | ----------------------- | -------------------------------------------------------- | ------------------ | --------------------------------------------- |
-| `getAboutGithub()`      | Busca dados do perfil do GitHub e monta a seção "Sobre". | Assíncrona         | Executada ao carregar o script.               |
-| `getProjectsGithub()`   | Busca repositórios e cria os cards dinamicamente.        | Assíncrona         | Limita a 6 repositórios mais recentes.        |
+| `getAboutGitHub()`      | Busca dados do perfil do GitHub e monta a seção "Sobre". | Assíncrona         | Executada ao carregar o script.               |
+| `getProjectsGitHub()`   | Busca repositórios e cria os cards dinamicamente.        | Assíncrona         | Limita a 6 repositórios mais recentes.        |
 | `iniciarSwiper()`       | Configura e inicia o carrossel de projetos.              | Inicialização      | Executada após gerar os slides.               |
+| `typeWriter()`          | Cria efeito de digitação no logo "Coding".               | Animação           | Atualiza o texto caractere por caractere.     |
+| `Alternância de Tema`   | Lógica para ativar/desativar o modo escuro.              | Interatividade     | Salva preferência no localStorage.            |
 | `truncar()`             | Limita o tamanho da descrição do projeto.                | Função auxiliar    | Adiciona reticências se ultrapassar o limite. |
 | Função anônima (submit) | Valida os campos do formulário antes do envio.           | Callback de evento | Desabilita botão durante envio.               |
 

@@ -135,7 +135,7 @@
 
 <br />
 
-<h2>2. Classes Criadas em styles.css</h2>
+<h2>2. Classes Criadas em style.css</h2>
 
 
 
@@ -203,10 +203,9 @@
 | `.contact-info`                    | Informações.                   | `<div>`           | `<div class="contact-info">`              |
 | `.contact-info h2`                 | Título contato.                | `<h2>`            | `<h2>`                                    |
 | `.contact-info p`                  | Texto contato.                 | `<p>`             | `<p>`                                     |
-| `.social-container`                | Redes sociais.                 | `<div>`           | `<div class="social-container">`          |
-| `.social-icon`                     | Ícone social.                  | `<a>`             | `<a class="social-icon">`                 |
-| `.social-icon img`                 | Imagem do ícone.               | `<img>`           | `<img>`                                   |
-| `.social-icon:hover img`           | Efeito no ícone.               | `<img>`           | —                                         |
+| `.contact-pill`                    | Botão de contato (pílula).      | `<a>`             | `<a class="contact-pill">`                |
+| `.contact-pill svg`                | Ícone do contato.              | `<svg>`           | `<svg>`                                   |
+| `.contact-pill:hover`              | Hover do botão pill.           | `<a>`             | —                                         |
 | `form`                             | Formulário.                    | `<form>`          | `<form>`                                  |
 | `form label`                       | Label.                         | `<label>`         | `<label>`                                 |
 | `form input`                       | Input.                         | `<input>`         | `<input>`                                 |
@@ -233,3 +232,6 @@
 | `@media screen and (max-width: 1024px)` | Responsividade (tablet) | Ajusta layout, tipografia e espaçamentos para telas médias.  |
 | `@media (max-width: 768px)`             | Responsividade (menu)   | Oculta o menu de navegação em telas menores.                 |
 | `@media screen and (max-width: 480px)`  | Responsividade (mobile) | Adapta layout completo para dispositivos móveis.             |
+| `body.dark-mode`                       | Modo Escuro             | Altera as variáveis de cores para tons escuros.              |
+| `body.dark-mode form input`            | Input no Modo Escuro    | Ajusta bordas e fundo dos campos para o tema escuro.          |
+| `body.dark-mode .project-image img`    | Inversão de Ícones      | Inverte cores de ícones escuros (como GitHub) no tema escuro. |

@@ -12,6 +12,7 @@ const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 // Função de preenchimento da seção about
 async function getAboutGitHub() {
+  if (!about) return;
   try {
     const resposta = await fetch("https://api.github.com/users/jrs-neto");
     const perfil = await resposta.json();
@@ -53,6 +54,7 @@ Tenho experiência prática através de projetos acadêmicos, pessoais e também
 
 // Função buscar os dados dos projetos
 async function getProjectsGitHub() {
+  if (!swiperWrapper) return;
   try {
     const resposta = await fetch("https://api.github.com/users/jrs-neto/repos?sort=pushed&per_page=6");
 
